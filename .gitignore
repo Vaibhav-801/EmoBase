@@ -1,0 +1,61 @@
+# ==========================================
+# Python & Environment
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==========================================
+# IDEs & System Junk
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+.tmp.driveupload/
+*.tmp
+
+# ==========================================
+# Large ML Model Weights & Checkpoints (>100MB)
+# ==========================================
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.h5
+*.onnx
+*.ckpt
+loaded resorce/
+emo_model/
+
+# ==========================================
+# Heavy Datasets & Precomputed Features
+# ==========================================
+features/
+Data/MELD.Raw/
+Data/FER2013/
+*.npy
+*.npz
+*.mp4
+*.wav
+*.avi
+
+# ==========================================
+# Jupyter Notebook Checkpoints
+# ==========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ==========================================
+# Scratch / Temporary Folders
+# ==========================================
+sample trash/
