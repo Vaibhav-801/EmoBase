@@ -50,7 +50,7 @@ EmoBase/
 ├── README.md                     # Architecture, documentation, and usage guide
 ├── requirements.txt              # Core dependencies
 │
-├── src/                          # Production Python source modules
+├── src/                          # Modular Python source modules
 │   ├── __init__.py               # Package initializer
 │   ├── advanced_model.py         # CrossAttentionBlock, Conversational GRU & SOTAFusionModel
 │   ├── datasets.py               # EmoContext and MELD dataset loaders & label mappings
@@ -60,16 +60,6 @@ EmoBase/
 │   ├── audio_extractor.py        # MFCC & Wav2Vec2 audio feature extraction
 │   ├── face_extractor.py         # Video middle-frame extractor & ResNet visual pipeline
 │   └── text_classifier.py        # RoBERTa dialogue text fine-tuning
-│
-├── notebooks/                    # Interactive research & exploratory notebooks
-│   ├── context_memory.ipynb      # Dialogue history modeling experiments
-│   ├── fusion_layer.ipynb        # On-the-fly multimodal training
-│   ├── fusion_layer2.ipynb       # Feature-based training & evaluation
-│   ├── audio.ipynb               # MFCC extraction notebook
-│   ├── wav_audio.ipynb           # Wav2Vec2 acoustic fine-tuning
-│   ├── face_sample.ipynb         # Facial emotion classification
-│   ├── text_meld.ipynb           # RoBERTa text modeling on MELD
-│   └── text_emocontext.ipynb     # Text modeling on EmoContext
 │
 ├── results/                      # Benchmark reports and predictions
 │   ├── results.txt               # Evaluation metrics (accuracy, precision, recall, F1)
